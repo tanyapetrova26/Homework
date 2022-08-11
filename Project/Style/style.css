@@ -64,7 +64,7 @@ body{
     bottom: -4px;
 }
 
-.header_button{
+.header_button, .Categories_button1{
     width: 160px;
     height: 48px;
     border: none;
@@ -76,7 +76,7 @@ body{
     color: #FFFFFF;
     font-weight: 700;
 }
-.header_button:hover{
+.header_button:hover,.Categories_button1:hover{
     cursor: pointer;
     transition: 1s;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #1d32ec;
@@ -115,5 +115,143 @@ body{
     margin-top: 30px;
 }
 
+.Categories{
+    background-color: rgba(0, 161, 198, 0.2);
+    margin-top: 105px;
+    padding: 105px 0 110px;
+}
 
+.Categories_subtitle{
+    max-width: 167px;
+    margin: 108px auto 24px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 34px;
+    text-align: center;
+    color: #2B292D;
+    
+}
+
+
+.Categories_title{
+    max-width: 555px;
+    margin: 30px auto;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #2B292D;
+}
+
+.Categories_text{
+    max-width: 555px;
+    margin: 0 auto 34px;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    color: #2B292D;
+}
+
+.Categories_button{
+    justify-content: center;
+    margin-bottom: 111px;
+}
+
+.Categories_button2{
+    margin-left: 10px;
+    width: 160px;
+    height: 48px;
+    border: none;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #FFFFFF;
+    border-radius: 2px;
+    
+
+    font-size: 18px;
+    line-height: 13px;
+    color: #000000;
+    font-weight: 700;
+
+}
+.Categories_button2:hover{
+    cursor: pointer;
+    transition: 1s;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(248, 243, 243, 1e-05) 100%), #f8f3f3;
+}
+
+
+.grid1{
+    max-width: 1140px;
+    display: grid;
+    gap: 0px 30px;
+    grid-template-columns: repeat(4, 262px);
+    
+}
+
+.item1{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #FFFFFF;
+}
+
+.item1:hover{
+    background: #3141C5;
+    cursor: pointer;
+    transition: 1s;
+    }
+
+.item1_img{
+    margin: 22px 62px;
+}
+
+.item1_text{
+    max-width: 212px;
+    margin: 0px 25px 33px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    color: #2B292D;
+}
+
+.item1_text:hover{
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+.Surfaces{
+    margin: 90px 0;
+   
+}
+
+.Surfaces_title{
+    max-width: 588px;
+    margin-left: 293px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 66px;
+    text-align: center;
+    margin-bottom: 26px;
+}
+.Surfaces_text{
+    max-width: 554px;
+    margin-left: 319px;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    color: #172342;
+    margin-bottom: 97px;
+}
+
+.grid{
+    max-width: 1140px;
+    display: grid;
+    gap: 40px 50px;
+    grid-template-columns: repeat(3, 346px);
+    grid-template-rows:  repeat(3, 209px);
+}
+
+.item:nth-child(3), .item:nth-child(4){
+    grid-row: span 2;
+}
 
