@@ -189,34 +189,37 @@ body{
 }
 
 .item1{
+    text-align: center;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #FFFFFF;
 }
 
 .item1:hover{
     background: #3141C5;
+    color: #FFFFFF;
     cursor: pointer;
     transition: 1s;
     }
 
 .item1_img{
-    margin: 22px 62px;
+    margin: 22px 0;
 }
 
 .item1_text{
-    max-width: 212px;
-    margin: 0px 25px 33px;
+    /* max-width: 212px;
+    margin: 0px 25px 33px; */
+    margin-bottom: 25px;
     font-weight: 700;
     font-size: 22px;
     line-height: 28px;
     text-align: center;
-    color: #2B292D;
+    /* color: #2B292D; */
 }
 
-.item1_text:hover{
+/* .item1_text:hover>p{
     color: #FFFFFF;
     cursor: pointer;
     transition: 1s;
-}
+} */
 
 
 .Surfaces{
@@ -244,11 +247,11 @@ body{
 }
 
 .grid{
-    max-width: 1140px;
+    /* max-width: 1140px; */
     display: grid;
     gap: 40px 50px;
-    grid-template-columns: repeat(3, 346px);
-    grid-template-rows:  repeat(3, 209px);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:  repeat(3, 1fr);
 }
 
 .item:nth-child(3), .item:nth-child(4){
