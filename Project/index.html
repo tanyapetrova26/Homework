@@ -41,7 +41,7 @@
         </div>
     </header>
     <section class="about">
-        <div class="container flex">
+        <div class="container flex flex_about-column">
         <div class="about_block">
             <h6 class="about_title">
                 What is it about?
@@ -63,18 +63,18 @@
     </section>
         
     <section class="icon">
-        <div class="container flex">
-            <img src="./IMG/Icons/New York Times.svg" alt="New York Times">
-            <img src="./IMG/Icons/Forbes.svg" alt="Forbes">
-            <img src="./IMG/Icons/Apple.svg" alt="Apple">
-            <img src="./IMG/Icons/Mashable.svg" alt="Mashable">
-            <img src="./IMG/Icons/WSJ.svg" alt="WSJ">
-            <img src="./IMG/Icons/Google.svg" alt="Google">
+        <div class="container flex icon_grid">
+            <img class="icon_img" src="./IMG/Icons/New York Times.svg" alt="New York Times">
+            <img class="icon_img" src="./IMG/Icons/Forbes.svg" alt="Forbes">
+            <img class="icon_img" src="./IMG/Icons/Apple.svg" alt="Apple">
+            <img class="icon_img" src="./IMG/Icons/Mashable.svg" alt="Mashable">
+            <img class="icon_img" src="./IMG/Icons/WSJ.svg" alt="WSJ">
+            <img class="icon_img" src="./IMG/Icons/Google.svg" alt="Google">
         </div>
     </section>
 
 <section class="inbox">
-    <div class="container flex">
+    <div class="container flex flex_inbox-column">
         <div class="container-image">
             <img class="container-image_img" src="./IMG/Inbox/Inbox-img.svg" alt="inbox_img">
         </div>
@@ -109,12 +109,12 @@
 </section>
 
 <section class="communicate">
-    <div class="container flex">
+    <div class="container flex flex_communicate-column">
         <div class="info">
             <p class="info_pretitle info_pretitle-blue">
                 Communicate Better
             </p>
-            <h3 class="info_title">
+            <h3 class="info_title info_title-size">
                 Built for busy small teams
             </h3>
             <p class="info_text">
@@ -129,8 +129,8 @@
         </div>
     </div>
 
-    <div class="container flex communicate_about">
-            <div>
+    <div class="container flex flex_communicate-column communicate_about">
+            <div class="communicate_block">
                 <p class="communicate_text">
                     <span class="communicate_text-bold"> Subscriptions.</span> Foundation works with the tools and services you already use every day.
                 </p>
@@ -138,7 +138,7 @@
                     Learn more about subscriptions
                 </a>
             </div>
-            <div>
+            <div class="communicate_block">
                 <p class="communicate_text">
                     <span class="communicate_text-bold"> Felxible Hours.</span> Get started with our simple snippet of JavaScript or easy to install SDKs for iOS and Android.
                 </p>
@@ -146,7 +146,7 @@
                     Get more info about hours
                 </a>
             </div>
-            <div>
+            <div class="communicate_block">
                 <p class="communicate_text">
                     <span class="communicate_text-bold"> Fast Communication.</span>  We offer measures like 2FA and SSO to ensure the safety of your data.
                 </p>
@@ -158,75 +158,76 @@
 </section>
 
 
-    <section class="Categories">
-        <div class="container">
-            <p class="info_pretitle info_pretitle-position">
-                Engage Visitors
-            </p>
-            <h3 class="info_title info_title-position">
-                Understand your audience
-            </h3>
-            <p class="info_text info_text-position">
-                Early stage company? Eligible applicants get all of our products for just $49 a month.
-            </p>
+<section class="Categories">
+    <div class="container">
+        <p class="info_pretitle info_pretitle-position">
+            Engage Visitors
+        </p>
+        <h3 class="info_title info_title-position">
+            Understand your audience
+        </h3>
+        <p class="info_text info_text-position">
+            Early stage company? Eligible applicants get all of our products for just $49 a month.
+        </p>
             <div class="flex flex_center Categories_button">
-                <button class="button button-position">
+                <button class="button button-position Categories_button-size">
                     Get Started
                 </button>
-                <button class="button button_white">
+                <button class="button button_white Categories_button-size">
                     Learn More
                 </button>
             </div>
-        </div>
+    </div>
 
         
-        <div class="container grid_Categories">
-            <div class="items">
-                <img class="items_img" src="./IMG/Categories/icon1.png" alt="icon1">
+    <div class="container grid_Categories">
+        <div class="items">
+            <img class="items_img" src="./IMG/Categories/icon1.png" alt="icon1">
                  <p class="items_text">
                         Developers
                 </p>
-            </div>
-            <div class="items">
-                <img class="items_img" src="./IMG/Categories/icon2.png" alt="icon2">
-                <p class="items_text">
-                        Entertainment
-                 </p>
-            </div>
-            <div class="items">
-                <img class="items_img" src="./IMG/Categories/icon3.png" alt="icon3">                    <p class="items_text">
-                    Athletes
-                </p>
-            </div>
-            <div class="items">
-                <img class="items_img" src="./IMG/Categories/icon4.png" alt="icon4">
-                <p class="items_text">
-                    Creators
-                </p>
-            </div>
         </div>
-        
-
-    </section>
-
-    <section class="Surfaces">
-        <div class="container">
-            <h3 class="Surfaces_title">
-                All Surfaces Covered
-            </h3>
-            <p class="Surfaces_text">
-                IOON kills bacteria on your hands, food, tables, laptops, you name it
+         <div class="items">
+            <img class="items_img" src="./IMG/Categories/icon2.png" alt="icon2">
+             <p class="items_text">
+                 Entertainment
             </p>
         </div>
-        <div class="container grid">
-            <div class="item"><img src="./IMG/Grid Surfaces/Grid 1.png" alt="Grid1"></div>
-            <div class="item"><img src="./IMG/Grid Surfaces/Grid 2.png" alt="Grid2"></div>
-            <div class="item"><img src="./IMG/Grid Surfaces/Grid 3.png" alt="Grid3"></div>
-            <div class="item"><img src="./IMG/Grid Surfaces/Grid 4.png" alt="Grid4"></div>
-            <div class="item"><img src="./IMG/Grid Surfaces/Grid 5.png" alt="Grid5"></div>
-            <div class="item"><img src="./IMG/Grid Surfaces/Grid 6.png" alt="Grid6"></div>
-            <div class="item"><img src="./IMG/Grid Surfaces/Grid 7.png" alt="Grid7"></div>
+        <div class="items">
+            <img class="items_img" src="./IMG/Categories/icon3.png" alt="icon3"> 
+            <p class="items_text">
+                 Athletes
+            </p>
         </div>
-    </section>
+        <div class="items">
+            <img class="items_img" src="./IMG/Categories/icon4.png" alt="icon4">
+            <p class="items_text">
+                Creators
+            </p>
+         </div>
+    </div>
+        
+
+</section>
+
+<section class="Surfaces">
+    <div class="container">
+        <h3 class="Surfaces_title">
+             All Surfaces Covered
+        </h3>
+        <p class="Surfaces_text">
+            IOON kills bacteria on your hands, food, tables, laptops, you name it
+         </p>
+     </div>
+    <div class="container grid">
+        <img class="item" src="./IMG/Grid Surfaces/Grid 1.png" alt="Grid1">
+        <img class="item" src="./IMG/Grid Surfaces/Grid 2.png" alt="Grid2">
+        <img class="item" src="./IMG/Grid Surfaces/Grid 3.png" alt="Grid3">
+        <img class="item" src="./IMG/Grid Surfaces/Grid 4.png" alt="Grid4">
+        <img class="item" src="./IMG/Grid Surfaces/Grid 5.png" alt="Grid5">
+        <img class="item" src="./IMG/Grid Surfaces/Grid 6.png" alt="Grid6">
+        <img class="item" src="./IMG/Grid Surfaces/Grid 7.png" alt="Grid7">
+    </div>
+</section>
 </body>
 </html>
