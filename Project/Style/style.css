@@ -145,6 +145,24 @@ body{
     padding: 115px 0 116px;
 }
 
+.container-image_img:hover{
+    position: relative;
+    cursor: pointer;
+    animation-name: toTop;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 500ms;
+}
+
+@keyframes toTop {
+    from{
+        top: 0;
+    }
+    to{
+        top: 50px;
+    }
+}
+
 
 .info_pretitle{
     font-weight: 700;
