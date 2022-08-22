@@ -149,7 +149,7 @@ body{
     position: relative;
     cursor: pointer;
     animation-name: toTop;
-    animation-duration: 3s;
+    animation-duration: 5s;
     animation-timing-function: linear;
     animation-delay: 500ms;
 }
@@ -160,6 +160,7 @@ body{
     }
     to{
         top: 50px;
+        rotate: 360deg;
     }
 }
 
@@ -294,7 +295,6 @@ body{
 
 
 .grid_Categories{
-    max-width: 100%;
     display: grid;
     gap: 0px 30px;
     grid-template-columns: repeat(4, 1fr);
@@ -328,7 +328,7 @@ body{
 
 
 .Surfaces{
-    padding-bottom: 91px;
+    padding: 90px 0 91px;
    
 }
 
@@ -619,7 +619,7 @@ body{
 
 
     .Surfaces{
-        padding-bottom: 124px;
+        padding: 43px 0 124px;
     }
 
     .Surfaces_title{
@@ -723,6 +723,15 @@ body{
     .grid{
         gap: 25px 40px;
     }
+
+    .trial_form{
+        text-align: center;
+    }
+
+     .input_trial::placeholder, .input_trial{
+        text-align: center;
+    }
+}
 }
 
 @media screen and (max-width: 550px){
@@ -788,22 +797,23 @@ body{
         margin: 10px 0;
     }
    
+    .icon_grid{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 10px 20px;
+        /* max-width: 100%; */
+    }
 
     .container-image_img{
         width: 100%;
     }
 
     .grid_Categories{
-        width: 100%;
-        display: grid;
         gap: 15px 0;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(4, 1fr);
     }
 
-    .input_trial::placeholder, .input_trial{
-        text-align: center;
-    }
 }
 
 @media screen and (max-width: 360px){
@@ -842,7 +852,7 @@ body{
     }
 
     .icon{
-        margin: 0; 
+        margin: 10px 0; 
     }
 
     .inbox{
@@ -932,7 +942,7 @@ body{
     }
     
     .Surfaces{
-        padding-bottom: 55px;
+        padding: 78px 0 55px;
     }
     
     .Surfaces_title{
@@ -952,9 +962,9 @@ body{
         padding: 56px 0 44px;
     }
 
-    .trial > .container-image_img{
+    /* .trial > .container-image_img{
         max-width: 80%;
-    }
+    } */
 
     .trial_title{
         text-align: start;
