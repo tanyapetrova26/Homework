@@ -375,6 +375,27 @@ body{
 }
 
 
+.company{
+    padding: 106px 0 90px;
+
+}
+
+.company-items{
+    max-width: 750px;
+    margin: 0 auto 20px;
+    box-sizing: border-box;
+    padding: 26px 25px;
+    border: 1px solid rgba(43, 41, 45, 0.2);
+    border-radius: 8px;
+}
+
+.company-text{
+
+}
+
+
+
+
 .Surfaces{
     padding: 90px 0 91px;
    
@@ -517,6 +538,17 @@ body{
 
 .footer{
     padding: 77px 0 49px;
+}
+
+.footer__flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer__flex-logo{
+    display: flex;
+    align-items: center;
 }
 
 .footer_info-logo img{
@@ -943,14 +975,14 @@ body{
         margin-bottom: 13px;
     }
 
+    .footer__flex{
+        align-items: center;
+    }
+
     .footer_info > div:first-child{
         margin-right: 0;
         margin-bottom: 32px;
     }
-
-    /* .footer_info, .footer_info-logo{
-        flex-direction: column;
-    } */
 
     .footer_info, .footer_info-logo, .footer-logo_title, .footer-logo_text, .footer_info-img{
         text-align: center;
@@ -967,7 +999,6 @@ body{
     .footer_nav-adapt{
         display: flex;
         justify-content: space-between;
-        /* max-width: 100%; */
     }
 
     .footer_nav-adapt > div:last-child{
@@ -1120,6 +1151,7 @@ body{
 
     .footer_nav{
         display: block;
+        
     }
 
     .footer_nav-link:last-child{
@@ -1128,6 +1160,7 @@ body{
 
     .footer_bottom-column{
         flex-direction: column;
+        
     }
 
     .footer_bottom-menu{
