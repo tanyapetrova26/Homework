@@ -389,8 +389,35 @@ body{
     border-radius: 8px;
 }
 
-.company-text{
+.company_pretitle{
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 700;
+}
 
+.company_subtitle{
+    font-size: 18px;
+    line-height: 24px;
+    color: #2B292D;
+}
+
+.company-text{
+    margin-top: 3px;
+    max-width: 410px;
+    font-size: 18px;
+    line-height: 26px;
+    display: none;
+}
+
+.company-rotate_icon{
+    transform: rotate(90deg);
+    transition: 300ms;
+}
+
+.change-color{
+    color: white;
+    background-color: #3141C5;
+    border: 1px solid #3141C5;
 }
 
 
@@ -559,9 +586,6 @@ body{
     margin-bottom: 29px;
 }
 
-/* .footer-logo{
-    max-width: 299px;
-} */
 
 .footer_info-text{
     max-width: 360px;
@@ -1151,6 +1175,11 @@ body{
 
     .footer_nav{
         display: block;
+       
+        
+    }
+    .footer__flex-start{
+        align-items: flex-start;
         
     }
 
