@@ -10,7 +10,7 @@ $('.company-items > div') .on('click', function(){
 $('.Features-items > div') .on('click', function(){
    $(this).children('.Features_icon').toggleClass('Features-rotate_icon');
    $(this).children('.Features-items__title').toggleClass('change-color__Features');
-   $(this).children('.Features__hr').toggleClass('change-color__hr');
+   $(this).parents('.Features-items').toggleClass('change-color__hr');
    $(this).next('.Features-items__text').slideToggle(300);
    
 })

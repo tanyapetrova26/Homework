@@ -242,6 +242,15 @@ body{
     margin-right: 15px;
 }
 
+.Features-items{
+    max-width: 459px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: rgba(43, 41, 45, 0.3);
+    padding: 20px 0 16px;
+    box-sizing: border-box;
+}
+
 .Features-items__title{
     max-width: 418px;
     font-size: 22px;
@@ -260,13 +269,6 @@ body{
     margin-bottom: 15px;
 }
 
-.Features__hr{
-    max-width: 459px;
-    height: 2px;
-    background-color: rgba(43, 41, 45, 0.3);
-    margin: 20px 0 16px;
-}
-
 
 .Features-rotate_icon{
     transform: translate(0, 6px) rotate(-30deg);
@@ -278,9 +280,8 @@ body{
 }
 
 .change-color__hr{
-    background-color: rgba(49, 65, 197, 1);
-
-    }
+    border-bottom-color: rgba(49, 65, 197, 1);
+}
 
 
 
@@ -829,6 +830,32 @@ body{
     cursor: pointer;
 }
 
+/* стрелка верх при скролинге */
+
+#up{
+    display: none;
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    font-size: 22px;
+    font-weight: 700;
+    bottom: 2vh;
+    right: 2vw;
+    background-color: #F3C6BD;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1), -2px -2px 2px 1px rgba(0, 0, 0, 0.1) ;
+    color: white;
+    cursor: pointer;
+}
+
+#up span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: inline-block;
+    transform: rotate(-90deg) translate(85%, -35%);
+}
+
     
 @media screen and (max-width: 1200px){
     .container{
@@ -1029,6 +1056,7 @@ body{
 
 .Features-screen{
     max-width: 80%;
+    margin-top: 49px;
 }
 
 
