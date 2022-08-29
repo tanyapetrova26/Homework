@@ -1,0 +1,156 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    position: relative;
+    padding: 40px 0 20px;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logo{
+    position: absolute;
+    max-width: 302px;
+    background: #FF9700;
+    padding: 25px 62px 28px 104px;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+}
+
+.logo_text{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.adress{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #A3ABB6;
+    margin-right: 50px;
+}
+
+.nav_li{
+    opacity: 0.3;
+}
+
+.nav_li:not(:last-of-type){
+    margin-right: 25px;
+}
+
+/* блок main */
+
+.flex_main{
+    display: flex;
+    justify-content: space-between;    
+}
+
+.main__info{
+   position: relative;
+   max-width: 245px;
+}
+
+.main_subtitle{
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 116.99%;
+    letter-spacing: 0.05em;
+    color: #A3A9B7;
+    text-align: end;
+    margin-top: 24px;
+}
+.main_hr{
+    width: 4px;
+    height: 64px;
+    background: #A3A9B7;
+    margin-left: 3px;
+}
+
+
+
+.main_rotate{
+    
+    width: 527px;
+    transform: rotate(-90deg) translate(-200px, -170px);
+    z-index: 1;
+   
+   
+}
+
+.main_title{
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 113px;
+    color: #A3ABB6;
+     
+
+}
+
+.main_text{
+    
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 53px;
+    color: #A3A9B7;
+   
+}
+
+
+
+.img_pointer{
+    position: absolute;
+    left: 0;
+    top: 462px;
+    z-index: 0;
+}
+
+.main__building{
+    position: relative;
+}
+
+.main__building-text{
+    position: absolute;
+    top: 32px;
+    left: 38px;
+}
+
+.main__building-title{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: 0.035em;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 5px;
+}
+
+.main__building-link{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+
+
+
+
+  
