@@ -1,0 +1,28 @@
+.bx-wrapper {
+    box-shadow: none;
+    border: none;
+    
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+    background: #C4C4C4;
+    width: 7px;
+    height: 7px;
+    margin: 0 10px;
+    
+    border-radius: 0;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus {
+    background: #FF9700;
+    width: 24px;
+}
+
+/* .carusel_name:hover{
+    color: black;
+} */
+
+
+.bx-viewport{
+    height: 330px;
+}

@@ -7,15 +7,33 @@
     <title>BE Arc</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.css" integrity="sha512-rV4fiystTwIvs71MLqeLbKbzosmgDS7VU5Xqk1IwFitAM+Aa9x/8Xil4CW+9DjOvVle2iqg4Ncagsbgu2MWxKQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style/bxslider.css">
     <link rel="stylesheet" href="./style/style.css">
 
 </head>
 <body>
     <header class="header">
         <div class="container">
+            <div class="menu">
+                <div class="hmbrgr_menu_cnt">
+                    <span class="arrow"></span>
+                </div>
+            </div>
+
+            <!-- <div class="menu_all">
+                <ul class="menu_all-ul flex_menu">
+                    <li><a class="menu_all-link" href=""></a>Home</li>
+                    <li><a href=""></a>Stories</li>
+                    <li><a href=""></a>projects</li>
+                    
+                </ul>
+            </div>     -->
+
+        
             <div class="logo">
                 <p class="logo_text">
                     BE Arc
@@ -56,42 +74,411 @@
         </div>
     </header>
 
-    <section class="main">
-        <div class="container flex_main">
-            <div class="main__info">
-                <p class="main_subtitle">
-                    SKY
+    <section class="main container flex_main">
+        <div class="main_rotate"> 
+            <div class="main_hr">
+                <!-- вертикальная линия -->
+            </div>
+
+            <div class="main_rotate-text">
+                <p class="main_title">
+                    Be heaven 
                 </p>
-                <div class="main_hr"></div>
-                                
-                <div class="main_rotate">
-                    <h1 class="main_title">
-                        Be heaven 
-                    </h1>
-                    <p class="main_text">
-                        Your Architecture
+                <p class="main_text">
+                    Your Architecture
+                </p>
+            </div>
+
+            <div class="img_pointer">
+                <img  src="./img/main/image 2.png" alt="img pointer">
+            </div>
+        </div>
+        
+        
+        <p class="main_subtitle">
+            SKY
+        </p>
+        
+            
+        <div class="main__building">
+            <div class="main__building-text">
+                <p class="main__building-title">
+                    BUILDING
+                </p>
+                <a class="main__building-link" href="">See project  >  </a>
+            </div>
+            <div class="main__building-img">
+                <img src="./img/main/main-img.png" alt="main img">
+            </div>
+        </div>
+        
+
+    </section>
+
+    <section class="about">
+        <div class="container flex_about">
+            <div class="about_img">
+                <img src="./img/about/about img.png" alt="about img">
+                <img class="about_pointer" src="./img/about/about pointer.png" alt="pointer">
+            </div>
+            <div>
+                <div>
+                    <p class="about_subtitle">
+                        ABOUT US
+                    </p>
+                    <p class="about_title">
+                        Welcom to BeArc Architecture
+                    </p>
+                    <p class="about_text">
+                        For us, design the means. The starting points are goals,strategies and expe-
+                        tations, but it transcends them to create a new and better reality. Design is
+                        transformative. For us, designis the means. The staring points are goals, strate-
+                        gies and expectations, but is transcends them to create a new and better
+                        reality. Design is transformative 
                     </p>
                 </div>
-                <div class="img_pointer">
-                    <img  src="./img/main/image 2.png" alt="img pointer">
+
+                <div class="flex_start">
+                    <p class="about_old">
+                        18
+                    </p>
+                    <div>
+                        <p class="about_year">
+                            Years Experience working
+                        </p>
+                        <div class="about_hr">
+                            <!-- линия -->
+                        </div>
+                    </div>
                 </div>
-                
+                <button class="button">
+                    Order a design
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects container">
+        <div>
+            <p class="projects_title">
+                Lastest Projects
+            </p>
+        </div>
+
+        <ul class="carusel">
+            <li class="carusel_item">
+                <img class="carusel_img" src="./img/projects/becam hotel.png" alt="becam hotel">
+                <div class="carusel_flex">
+                    <div class="carusel_hr">
+                        <!-- линия -->
+                    </div>
+                    <p class="carusel_name">
+                        Becam Hotel
+                    </p>
+                </div>
+            </li>
+
+            <li class="carusel_item">
+                <img class="carusel_img" src="./img/projects/love hotel.png" alt="Luxury Love Hotel">
+                <div class="carusel_flex">
+                    <div class="carusel_hr">
+                        <!-- линия -->
+                    </div>
+                    <p class="carusel_name">
+                        Luxury Love Hotel
+                    </p>
+                </div>
+            </li>
+
+            <li class="carusel_item">
+                <img class="carusel_img" src="./img/projects/tonten tower.png" alt="tonten tower">
+                <div class="carusel_flex">
+                    <div class="carusel_hr">
+                        <!-- линия -->
+                    </div>
+                    <p class="carusel_name">
+                        Tonten Tower
+                    </p>
+                </div>
+            </li>
+
+            <li class="carusel_item">
+                <img class="carusel_img" src="./img/projects/love hotel.png" alt="Cadillac House">
+                <div class="carusel_flex">
+                    <div class="carusel_hr">
+                        <!-- линия -->
+                    </div>
+                    <p class="carusel_name">
+                        Cadillac House
+                    </p>
+                </div>
+            </li>
+        </ul>
+
+        
+        
+        
+        
+    
+
+    </section>
+
+    <section class="wwd">
+        <div class="container flex_wwd">
+            <div class="wwd_content">
+                <p class="content_subtitle">
+                    WHAT WE DO
+                </p>
+                <p class="content_title">
+                    Be heaven Your Architecture
+                </p>
+                <p class="content_text">
+                    For us, design the means. The starting points are goals,strategies and expe-
+                    tations, but it transcends them to create a new and better reality. Design is
+                    transformative. For us, designis the means. 
+                </p>
+
+                <div class="wwd_grid">
+                    <div class="wwd_icon">
+                        <img src="./img/wwd/icon/consulting window.png" alt="consulting window">
+                        <p class="wwd_grid-title">
+                            Consulting
+                        </p>
+                    </div>
+
+                    <div class="wwd_icon">
+                        <img src="./img/wwd/icon/consulting.png" alt="consulting ">
+                        <p class="wwd_grid-title">
+                            Consulting
+                        </p>
+                    </div>
+
+                    <div class="wwd_icon">
+                        <img src="./img/wwd/icon/interior design.png" alt="interior design">
+                        <p class="wwd_grid-title">
+                            Interior Design
+                        </p>
+                    </div>
+
+                    <div class="wwd_icon">
+                        <img src="./img/wwd/icon/product design.png" alt="product design">
+                        <p class="wwd_grid-title">
+                            Product Design
+                        </p>
+                    </div>
+                </div>
+
+                <button class="button button_wwd">
+                    Order a design
+                </button>
 
             </div>
-            <div class="main__building">
-                <div class="main__building-text">
-                    <p class="main__building-title">
-                        BUILDING
-                    </p>
-                    <a class="main__building-link" href="">See project  >  </a>
-                </div>
+            <div class="wwd_img">
+                <img src="./img/wwd/wwd img.png" alt="wwd img">
+                <img class="wwd_pointer" src="./img/wwd/wwd pointer.png" alt="pointer">
+            </div>
+        </div>
+
+    </section>
+
+    <section class="clients">
+        <div class="container">
+            <p class="clients_title">
+                Our Clients & Testerminal
+            </p>
+
+            <div class="clients_carusel">
                 <div>
-                    <img class="main__building-img" src="./img/main/main-img.png" alt="main img">
+                    <div class="clients_content clients_flex">
+                        <div class="clients_foto">
+                            <img src="./img/clients/clients foto.png" alt="foto">
+                            <img class="clients_pointer" src="./img/clients/pointer.png" alt="pointer">
+                        </div>
+
+                        <div class="clients_info">
+                            <p class="clients_name">
+                                Antonio Hernandez
+                            </p>
+                            <p class="clients_position">
+                                NASA
+                            </p>
+                            <p class="clients_text">
+                                Love is like a butterfly, the more you chase it, the more it will elude you. 
+                                But if you turn your attention towards other things it will come and softly
+                                sit on your shoulder.         
+                            </p>
+                            <div class="clients_company">
+                                <img src="./img/clients/icon/stripe.svg" alt="stripe">
+                                <img src="./img/clients/icon/shopify.svg" alt="shopify">
+                                <img src="./img/clients/icon/microsoft.svg" alt="microsoft">
+                            </div>
+                        </div>
+                    
+                    </div>
+                </div>
+                <div class="clients_content">
+                    <div class="clients_foto">
+                        <img src="./img/clients/clients foto.png" alt="foto">
+                        <img class="clients_pointer" src="./img/clients/pointer.png" alt="pointer">
+                    </div>
+
+                    <div class="clients_info">
+                        <p class="clients_name">
+                            Charlotte Bond
+                        </p>
+                        <p class="clients_position">
+                            Makeup
+                        </p>
+                        <p class="clients_text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit amet maxime sint quod quo iste eius exercitationem unde error illum necessitatibus accusamus quia laboriosam nihil sapiente veniam quos, quibusdam, porro officiis placeat. Accusamus doloribus reiciendis necessitatibus officia, excepturi perferendis accusantium? Asperiores dolores laborum eaque aliquid omnis repellendus doloremque ea quod?        
+                        </p>
+                        <div class="clients_company">
+                            <img src="./img/clients/icon/stripe.svg" alt="stripe">
+                            <img src="./img/clients/icon/shopify.svg" alt="shopify">
+                            <img src="./img/clients/icon/microsoft.svg" alt="microsoft">
+                        </div>
+                    </div>
+                
+                </div>
+
+                <div class="clients_content">
+                    <div class="clients_foto">
+                        <img src="./img/clients/clients foto.png" alt="foto">
+                        <img class="clients_pointer" src="./img/clients/pointer.png" alt="pointer">
+                    </div>
+
+                    <div class="clients_info">
+                        <p class="clients_name">
+                            Henry Jackson
+                        </p>
+                        <p class="clients_position">
+                            NASA
+                        </p>
+                        <p class="clients_text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, aliquid.         
+                        </p>
+                        <div class="clients_company">
+                            <img src="./img/clients/icon/stripe.svg" alt="stripe">
+                            <img src="./img/clients/icon/shopify.svg" alt="shopify">
+                            <img src="./img/clients/icon/tokopedia.svg" alt="tokopedia">
+                        </div>
+                    </div>
+                
                 </div>
             </div>
         </div>
 
     </section>
+
+    <section class="new">
+        <div class="container">
+            <p class="new_title">
+                New & Blog
+            </p>
+            <div class="new_flex">
+                <div class="img_content">
+                    <img class="new_img" src="./img/new/img1.png" alt="img1">
+                    <div class="subtitle_flex">
+                        <div class="subtitle_hr">
+                            <!-- линия -->
+                        </div>
+                        <p class="subtitle_name">
+                            There are many variations
+                        </p>
+                    </div>
+                </div>
+                <div class="img_content">
+                    <img class="new_img" src="./img/new/img2.png" alt="img2">
+                    <div class="subtitle_flex">
+                        <div class="subtitle_hr">
+                            <!-- линия -->
+                        </div>
+                        <p class="subtitle_name">
+                            There are many variations
+                        </p>
+                    </div>
+                </div>
+                <div class="img_content">
+                    <img class="new_img" src="./img/new/img3.png" alt="img3">
+                    <div class="subtitle_flex">
+                        <div class="subtitle_hr">
+                            <!-- линия -->
+                        </div>
+                        <p class="subtitle_name">
+                            There are many variations
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footer container footer_flex">
+        <div class="footer_logo">
+            <p class="footer_logo-text">
+                BE Arc
+            </p>
+            <p class="footer_logo-adress">
+                BeArt All Rights Resevered
+                888 Brannan Street / San Francisco, California
+            </p>
+        </div>
+        <ul class="footer_comunication">
+            <li class="footer_li"><a class="footer_link"  href="">Term & Conditions</a></li>
+            <li class="footer_li"><a class="footer_link" href="">Prvacy Policy</a></li>
+            <li class="footer_li"><a class="footer_link" href="">Help</a></li>
+            <li class="footer_li"><a class="footer_link" href="">Comunication</a></li>
+        </ul>
+        <ul class="footer_menu">
+            <li class="footer_li"><a class="footer_link" href="">About</a></li>
+            <li class="footer_li"><a class="footer_link" href="">Service</a></li>
+            <li class="footer_li"><a class="footer_link" href="">Contact</a></li>
+        </ul>
+        <div>
+            <div class="footer_flex">
+                <p class="select_text">Select Language:</p>
+                <form>
+                    <select name="Select Language">
+                        <!-- <option value="" hidden>Select Language:</option>  -->
+                        <option value="en">EN</option>
+                        <option value="ru">RU</option>
+                        <option value="ua">UA</option>
+                    </select>
+                </form>
+            </div>
+            <nav>
+                <ul class="footer_flex">
+                    <li class="nav_li">
+                        <a href="">
+                            <img src="./img/header/facebook.png" alt="facebook">
+                        </a>
+                    </li>
+                    <li class="nav_li">
+                        <a href="">
+                            <img src="./img/header/google.png" alt="google">
+                        </a>
+                    </li>
+                    <li class="nav_li">
+                        <a href="">
+                            <img src="./img/header/twitter.png" alt="twitter">
+                        </a>
+                    </li>
+                    <li class="nav_li">
+                        <a href="">
+                            <img src="./img/header/Be.png" alt="be">
+                        </a>
+                    </li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.js" integrity="sha512-CX7sDOp7UTAq+i1FYIlf9Uo27x4os+kGeoT7rgwvY+4dmjqV0IuE/Bl5hVsjnQPQiTOhAX1O2r2j5bjsFBvv/A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js" integrity="sha512-p55Bpm5gf7tvTsmkwyszUe4oVMwxJMoff7Jq3J/oHaBk+tNQvDKNz9/gLxn9vyCjgd6SAoqLnL13fnuZzCYAUA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script/menu.js"></script>
+    <script src="./script/bxslider.js"></script>
 </body>
 </html>
