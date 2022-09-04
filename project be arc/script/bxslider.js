@@ -6,7 +6,10 @@ $('.carusel').bxSlider({
     touchEnabled: true,
     hideControlOnEnd: false,
     tickerHover: true,
+    adaptiveHeight: true,
+    infinite: true,
 });
+
 
 
 
@@ -19,4 +22,5 @@ $('.clients_carusel').bxSlider({
     touchEnabled: true,
     hideControlOnEnd: false,
     tickerHover: true,
+    adaptiveHeight: true,
 })

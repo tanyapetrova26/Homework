@@ -23,6 +23,20 @@
 } */
 
 
-.bx-viewport{
-    height: 330px;
-}
+/* .bx-viewport{
+    height: 500px !important;
+} */
+
+@media screen and (max-width: 550px) {
+
+    .bx-wrapper .bx-pager.bx-default-pager a {
+        
+        width: 4px;
+        height: 4px;
+        margin: 0 7px;
+    }
+
+    .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus {
+        
+        width: 14px;
+    }
