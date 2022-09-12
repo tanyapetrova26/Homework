@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.css" integrity="sha512-rV4fiystTwIvs71MLqeLbKbzosmgDS7VU5Xqk1IwFitAM+Aa9x/8Xil4CW+9DjOvVle2iqg4Ncagsbgu2MWxKQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style/bxslider.css">
     <link rel="stylesheet" href="./style/style.css">
-
+    <link rel="stylesheet" href="./wow/animate.css">
 </head>
 <body>
     <header class="header">
@@ -125,10 +125,10 @@
             </div>
             <div>
                 <div>
-                    <p class="about_subtitle">
+                    <p class="about_subtitle ">
                         ABOUT US
                     </p>
-                    <p class="about_title">
+                    <p class="about_title wow rotateOut">
                         Welcom to BeArc Architecture
                     </p>
                     <p class="about_text">
@@ -283,13 +283,7 @@
                 </div>
                 
             </li>
-        </ul>
-
-        
-        
-        
-        
-    
+        </ul>  
 
     </section>
 
@@ -353,7 +347,7 @@
 
     <section class="clients">
         <div class="container">
-            <p class="clients_title">
+            <p class="clients_title wow zoomOutUp">
                 Our Clients & Testerminal
             </p>
 
@@ -559,6 +553,10 @@
     <script src="./script/menu.js"></script>
     <script src="./script/bxslider.js"></script>
     <script src="./script/modal.js"></script>
-    <script src="./script/upbutton,js"></script>
+    <script src="./script/upbutton.js"></script>
+    <script src="./wow/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
 </body>
 </html>
